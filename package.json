@@ -2,13 +2,13 @@
   "name": "npm-rebase-tool",
   "version": "1.1.0",
   "description": "a tool to rebase git branches and manage commits.",
-  "main": "index.js",
+  "main": "/src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rebase": "node index.js"
+    "rebase": "node ./bin/cli.js"
   },
   "bin":{
-  	"adi-rbi": "./index.js"
+  	"adi-rebase-i": "./bin/cli.js"
   },
   "author": "adi",
   "license": "MIT",
